@@ -2,7 +2,9 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 class TimerEx {
+	
     public static void iniciar() {
+    System.out.println("eooo");
     Timer timer;
     timer = new Timer();
 
