@@ -2,9 +2,10 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 class TimerEx {
-	
+	public static void main(String[] args){
+		iniciar();
+	}
     public static void iniciar() {
-    System.out.println("eooo");
     Timer timer;
     timer = new Timer();
 
@@ -13,7 +14,7 @@ class TimerEx {
         public void run(){
         	System.out.println(i);
         	i++;
-        	if (i==11){System.out.print("termino");timer.cancel();}
+        	if (i==31){System.out.print("termino");timer.cancel();}
         }
     };
     
